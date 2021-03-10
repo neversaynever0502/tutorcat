@@ -3,9 +3,9 @@ body,h1,p,a{
   margin: 0;
 }
 
-body{
-  /* width:100vw; */
-  /* overflow-y: hidden; */
+html,body{
+  width:100vw;
+  overflow-x: hidden;
 }
 
 .header{
