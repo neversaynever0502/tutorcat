@@ -1,0 +1,198 @@
+body,h1,p,a{
+  padding:0;
+  margin: 0;
+}
+
+.header{
+  background-color: white;
+  height:60px;
+  /* width:100%;  */
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header > *:nth-child(1){
+  display:flex;
+  margin-left: 10px;
+}
+.header > *:nth-child(1)>img{
+  width: 40px
+}
+
+.header > *:nth-child(2){
+  display:flex;
+}
+
+.header > *:nth-child(2)> input{
+  margin-right: 10px;
+}
+
+
+.whole-page{
+  /* display:flex; */
+}
+.index-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.index-image{
+  background-image: url('./images/Chatting-online-560x315.jpeg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  -webkit-filter:blur(3px);
+  -webkit-filter:opacity(.2);
+  height: 100vh;
+  width:100%;
+  position:absolute;
+
+}
+.title{
+  text-align: center;
+  margin-bottom:100px;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center; */
+
+  /* flex:1 1 100%; */
+  position:absolute;
+}
+.title > *{
+  /* flex:1 1 100%; */
+}
+
+.how-to-learn{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.learn-right-wrong{
+  display:flex;
+  /* height:10em; */
+}
+
+.learn-wrong{
+  /* display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width:200px;
+  border:brown solid;
+  */ 
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border:brown solid;
+
+    flex:1 1 100%; 
+
+}
+
+.learn-right{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border:chartreuse solid;
+  flex:1 1 100%;
+}
+
+.learn-right > *:nth-child(2){
+  margin-top: 10px;
+}
+
+.learn-wrong > *:nth-child(2){
+  margin-top: 15px;
+}
+
+.learn-right > *:nth-child(3){
+  margin: 5px;
+}
+
+.learn-wrong > *:nth-child(3){
+  margin: 5px;
+}
+
+.learn-right-wrong img {
+  width:50px
+}
+
+.note{
+  display:flex;
+  /* width:30% */
+  /* flex:1 1 100%; */
+}
+
+.note>img{
+  /* flex:1 1 30%; */
+  width:30%
+}
+
+.note-div{
+  text-align: center
+}
+
+.commendation-div > h2{
+  text-align: center;
+  /* display:flex;
+  flex-wrap:wrap;
+  justify-content: center; */
+}
+
+.commendation{
+  display:flex;
+  flex-direction: row;
+}
+
+
+@media (max-width: 600px) {
+  .commendation {
+    flex-direction: column;
+  }
+}
+
+.commendation-one{
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  flex:1 1 100%;
+  margin-bottom: 30px;
+}
+
+
+.commendation-one img{
+  width:200px;
+}
+
+.teacher-introduction-div{
+  text-align: center;
+  margin:30px;
+}
+
+.teacher-introduction-div > h1{
+  
+}
+
+.teacher-introduction{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.teacher-introduction >img{
+  width:300px;
+}
+
+.try-it-div{
+  margin:50px;
+  text-align: center;
+
+}
+
+try-it{
+  display:flex;
+  flex-direction: column;
+}
