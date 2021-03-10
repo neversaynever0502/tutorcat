@@ -3,6 +3,11 @@ body,h1,p,a{
   margin: 0;
 }
 
+body{
+  /* width:100vw; */
+  overflow: hidden;
+}
+
 .header{
   background-color: white;
   height:60px;
