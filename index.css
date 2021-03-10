@@ -78,6 +78,7 @@ body,h1,p,a{
 .learn-right-wrong{
   display:flex;
   /* height:10em; */
+  
 }
 
 .learn-wrong{
@@ -89,19 +90,22 @@ body,h1,p,a{
   */ 
   display:flex;
   justify-content: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
   border:brown solid;
 
     flex:1 1 100%; 
-
+    padding:15px;
 }
 
 .learn-right{
   display:flex;
+  flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
   border:chartreuse solid;
   flex:1 1 100%;
+  padding:15px;
 }
 
 .learn-right > *:nth-child(2){
