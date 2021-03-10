@@ -177,13 +177,12 @@ html,body{
     flex-direction: column;
   }
   .menu{
-    /* display: none;
-    background-color: green; */
     visibility:hidden
   }
 }
 
 .commendation-one{
+  height:100%;
   text-align: center;
   display:flex;
   flex-direction: column;
@@ -219,7 +218,6 @@ html,body{
 .try-it-div{
   margin:50px;
   text-align: center;
-
 }
 
 try-it{
