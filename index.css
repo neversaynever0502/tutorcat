@@ -17,7 +17,8 @@ body,h1,p,a{
   margin-left: 10px;
 }
 .header > *:nth-child(1)>img{
-  width: 40px
+  width: 40px;
+  height:100%
 }
 
 .header > *:nth-child(2){
@@ -120,7 +121,9 @@ body,h1,p,a{
 }
 
 .learn-right-wrong img {
-  width:50px
+  width:30%;
+  height: 0;
+  padding-bottom: 25%;
 }
 
 .note{
@@ -131,7 +134,8 @@ body,h1,p,a{
 
 .note>img{
   /* flex:1 1 30%; */
-  width:30%
+  width:30%;
+  height:100%
 }
 
 .note-div{
