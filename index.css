@@ -72,6 +72,10 @@ body,h1,p,a{
   color:gray
 }
 
+.title img{
+  width:100%
+}
+
 .how-to-learn{
   display:flex;
   justify-content: center;
